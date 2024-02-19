@@ -1,0 +1,77 @@
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
+  
+  --primary-blue : #007DFC;
+  --primary-dark-blue: #0A142F;
+  --primary-grey : #9A9A9A;
+  --primary-black : #272A2D;
+  --secondary-grey: #F6F7FB;
+  --secondary-light-grey: #F9F9F9;
+  --secondary-blue: #0074E0;
+  --table-border-color: #EAECF0;
+  --table-point-bg-color: #F0FAF3;
+  --table-point-text-color: #39B963;
+  --table-pagination-item-bg-color: #FFF6F2;
+  --table-pagination-item-text: #EF7141;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: fit-content;
+  width: fit-content;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, button{
+  min-height: 44px;
+}
+
+.text-black{
+  color: var(--primary-black);
+}
+.text-white{
+  color: #fff;
+}
+
+a{
+  text-decoration: unset;
+  color: var(--primary-blue);
+}
+
+.muted{
+  color: var(--primary-grey);
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.btn-muted{
+  background-color: #D9D9D9;
+  border-color: #D9D9D9;
+  color: #fff;
+}
+
+.btn-muted:hover{
+  background-color: #D9D9D9;
+  border-color: #D9D9D9;
+  color: #fff;
+}
+

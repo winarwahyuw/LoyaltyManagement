@@ -1,0 +1,29 @@
+/* X-Small */
+@media (max-width: 575.98px) {
+    /* CSS styles for X-Small screens */
+  }
+  
+  /* Small */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS styles for Small screens */
+  }
+  
+  /* Medium */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+  }
+  
+  /* Large */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+  }
+  
+  /* Extra large */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+  }
+  
+  /* Extra extra large */
+  @media (min-width: 1400px) {
+    
+  }
